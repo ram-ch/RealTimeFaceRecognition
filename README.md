@@ -6,3 +6,11 @@ This file trains a model on the images in faces_dataset
 
 ### FaceDetector.py   
 This file uses live web cam feed to detect and recognize the faces
+
+
+MTCNN
+
+Keras facenet pretrained model
+
+Support Vector Machines
+
