@@ -29,16 +29,17 @@ RealTimeFaceRecognition
 
 
 ### Training Data  
-The training data consists of 4 classes (4 persons)
+The training data consists of 4 classes (4 persons). I have gathered 15 images per class and have compiled the training data set with a total of 60 images. The directories is named after the class labels. Apart from training data I have gathered 5 more images for validation during the training of the model. Initially I thought of compiling a data set with thousands of images for each class, but in real world business use cases it is very difficut to gather such a huge number of pictures for each individual. Hence our model should be good enough, even with bare minimum number of observation for each class.
 1. sai_ram
 2. narendra_modi
 3. donald_trump
-4. virat_kohli  
-I have gathered 15 images per class and have compiled the training data set with a total of 60 images. The directory is named after the class labels
-
+4. virat_kohli     
 
 ### FaceTrainer.py    
 This python script builds and trains a model on the images in faces_dataset   
+**Training Procedure:**  
+* Step 1:     
+* Step 2:    
 
 ### FaceDetector.py   
 This file uses live web cam feed to detect and recognize the faces
