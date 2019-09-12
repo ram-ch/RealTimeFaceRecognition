@@ -1,9 +1,9 @@
 # Real Time Face Recognition   
-This project aims at building a realtime face recognition model. I have used 
-OpenCV - For real time camera feed from laptop webcam
-Multi-task Cascaded Convolutional Networks (MTCNN) - For face extraction from an image
-keras facenet model - For creating embeddings of the extracted faces
-Support Vector Machines algorithm - For predicting the target variable class
+This project aims at building a realtime face recognition model. I have used       
+OpenCV - For real time camera feed from laptop webcam     
+Multi-task Cascaded Convolutional Networks (MTCNN) - For face extraction from an image     
+keras facenet model - For creating embeddings of the extracted faces       
+Support Vector Machines algorithm - For predicting the target variable class     
 
 ### Files and directory structure   
 ```bash
@@ -34,11 +34,11 @@ The training data consists of 4 classes (4 persons)
 2. narendra_modi
 3. donald_trump
 4. virat_kohli  
-I have gathered 15 images per class and have compiled the training data set with a total of 60 images. The directory is considered as the class label name
+I have gathered 15 images per class and have compiled the training data set with a total of 60 images. The directory is named after the class labels
 
 
-### FaceTrainer.py   
-This file trains a model on the images in faces_dataset
+### FaceTrainer.py    
+This python script builds and trains a model on the images in faces_dataset   
 
 ### FaceDetector.py   
 This file uses live web cam feed to detect and recognize the faces
