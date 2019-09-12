@@ -2,6 +2,7 @@
 Real time face recognition with opencv, mtcnn and svm  
 
 ### Files and directory structure   
+```bash
 RealTimeFaceRecognition
 |__FaceDetector.py      
 |__FaceTrainer.py     
@@ -20,7 +21,7 @@ RealTimeFaceRecognition
       |__donald_trump   
       |__narendra_modi   
       |__virat_kohli   
-
+```
 
 
 ### Training Data  
