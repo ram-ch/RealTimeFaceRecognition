@@ -1,5 +1,9 @@
-# RealTimeFaceRecognition
-Real time face recognition with opencv, mtcnn and svm  
+# Real Time Face Recognition   
+This project aims at building a realtime face recognition model. I have used 
+OpenCV - For real time camera feed from laptop webcam
+Multi-task Cascaded Convolutional Networks (MTCNN) - For face extraction from an image
+keras facenet model - For creating embeddings of the extracted faces
+Support Vector Machines algorithm - For predicting the target variable class
 
 ### Files and directory structure   
 ```bash
