@@ -3,23 +3,23 @@ Real time face recognition with opencv, mtcnn and svm
 
 ### Files and directory structure   
 RealTimeFaceRecognition
-|__FaceDetector.py
-|__FaceTrainer.py
-|__facenet_keras.h5
-|__SVM_classifier.sav
-|__faces_dataset_embeddings.npz
-|__faces_dataset.npz
-|__faces_dataset
-   |__train
-      |__sai_ram
-      |__donald_trump
-      |__narendra_modi
-      |__virat_kohli
-   |__val
-      |__sai_ram
-      |__donald_trump
-      |__narendra_modi
-      |__virat_kohli
+|__FaceDetector.py      
+|__FaceTrainer.py     
+|__facenet_keras.h5    
+|__SVM_classifier.sav    
+|__faces_dataset_embeddings.npz   
+|__faces_dataset.npz   
+|__faces_dataset   
+   |__train   
+      |__sai_ram    
+      |__donald_trump   
+      |__narendra_modi   
+      |__virat_kohli   
+   |__val   
+      |__sai_ram   
+      |__donald_trump   
+      |__narendra_modi   
+      |__virat_kohli   
 
 
 
