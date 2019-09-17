@@ -1,5 +1,5 @@
 # Real-Time Face Recognition   
-This project aims at building a realtime face recognition model. I have used       
+This project aims at building a realtime face recognition model.The purpose is to recognize a person/persons in a natural video. The model takes in a camera feed and returns a video stream with a bounding box and a probability for all the class labels. To achieve this functionality I have used:      
 * OpenCV - For real-time camera feed from a laptop webcam     
 * Multi-task Cascaded Convolutional Networks (MTCNN) - For face extraction from an image     
 * Keras face net model - For creating embeddings of the extracted faces       
