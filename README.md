@@ -59,7 +59,21 @@ This file uses live web cam feed to detect and recognize the faces
 * Step 4: Load the Keras facenet model and extract embeddings from the extracted faces      
 * Step 5: Normalize the embedded vector   
 * Step 6: Load the saved SVM model for inference       
-* Step 7: predict the class label using the SVM         
+* Step 7: predict the class label using the SVM       
+
+Use Cases:    
+**1. Automatic classroom attendance in educational institutions**      
+Value addition:
+* Drastically reduces the time taken for manual attendance marking   
+* Eliminated proxying among students   
+**2. Security monitoring services**   
+Value addition:   
+* Detects trespassers into prohibited areas   
+* Real-time detection of suspects   
+**3. CRM at the bank teller counters**  
+Value addition:   
+* Greet customers and guide them to the relevant teller counters   
+* Acts as multi-level authorization of account holders for transaction   
 
 **More about**       
 MTCNN:  https://arxiv.org/abs/1604.02878   
