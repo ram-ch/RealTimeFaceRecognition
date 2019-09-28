@@ -1,3 +1,7 @@
+
+
+
+
 # Real-Time Face Recognition   
 This project aims at building a realtime face recognition model.The purpose is to recognize a person/persons in a natural video. The model takes in a camera feed and returns a video stream with a bounding box and a probability for all the class labels. To achieve this functionality I have used:      
 * OpenCV - For real-time camera feed from a laptop webcam     
@@ -57,10 +61,10 @@ This file uses live web cam feed to detect and recognize the faces
 * Step 6: Load the saved SVM model for inference       
 * Step 7: predict the class label using the SVM         
 
+**More about**       
+MTCNN:  https://arxiv.org/abs/1604.02878   
+Keras facenet pretrained model: https://pypi.org/project/keras-facenet/    
+Support Vector Machines: https://www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/   
 
-MTCNN
 
-Keras facenet pretrained model
-
-Support Vector Machines
 
