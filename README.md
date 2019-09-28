@@ -47,8 +47,15 @@ The extracted faces are converted and saved as numpy array zip files in python
 * Step 4: Training a Support Vector Machine(SVM) on the embeddings   
 * Step 5: Saving the trained SVM model for future inferences   
 
-### FaceDetector.py   
-This file uses live web cam feed to detect and recognize the faces
+### FaceDetector.py     
+This file uses live web cam feed to detect and recognize the faces   
+* Step 1: Get the live camera feed      
+* Step 2: Extracts images as frames from video      
+* Step 3: Import the MTCNN library and detect faces in each frame   
+* Step 4: Load the Keras facenet model and extract embeddings from the extracted faces      
+* Step 5: Normalize the embedded vector   
+* Step 6: Load the saved SVM model for inference       
+* Step 7: predict the class label using the SVM         
 
 
 MTCNN
